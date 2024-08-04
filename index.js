@@ -4,7 +4,7 @@ const app = express();
 const port = 80;
 
 let rcount = {};
-const maxpath = 10;
+const maxpath = 100;
 
 app.use((req, res, next) => {
   const path = req.path;
